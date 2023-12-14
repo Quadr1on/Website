@@ -42,7 +42,7 @@ video{
     color: rgb(0, 0, 0);
 
 }
-@media only screen and (max-width:450px){
+@media only screen and (max-width:500px){
     video{
         display:flex;
         justify-content: center;
