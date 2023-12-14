@@ -42,3 +42,19 @@ video{
     color: rgb(0, 0, 0);
 
 }
+@media only screen and (max-width:450px){
+    video{
+        display:flex;
+        justify-content: center;
+        width: 300px;
+        margin: 20px 20px 10px;
+        border-radius:10px ;
+    }
+    div{
+        display: flex;
+    }
+    .title .txt{
+        width: 200px;
+        font-size: 15px;
+    }
+}
