@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(0, 32, 52);
+}
+main{
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+  justify-content: center;
+}
+.box {
+  flex-direction: column;
+  background-color:rgb(255, 247, 208);
+  border: 3px black solid;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px;
+}
+
+.box1{
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #007bff;
+    background-color: #58a8fedf;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+    width: 20vh;
+    position: relative;
+    left: 60px;
+}
+
+.box1:hover{
+  transition: background-color 0.5s ease-in-out ;
+  background-color: #007bff;
+  color:#58a8fedf;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container {
+  font-size: x-small;  
+  margin: 3px;
+  margin-bottom: 1px;
+  padding: 2px;  
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.container.b1{
+    margin-left: 5px;
+}
+.container.b1 a{
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  margin: 3px;
+  width: 293px;
+  border-radius: 10px;
+ 
+}
+
+h2 {
+  margin: 5px;
+  margin-top:2px;
+  font-family: 'Abril Fatface', serif;
+  
+}
+
+p {
+  margin: 5px;
+  font-family: 'Poppins', sans-serif;
+}
