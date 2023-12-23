@@ -127,7 +127,7 @@ body {
 }
 .image img:hover{
   transform: scale(1.07);
-  transition:600ms ;
+  transition:300ms ;
   transition-timing-function: ease-out;
 }
 .image1 img{
