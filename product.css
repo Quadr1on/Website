@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #0f0f0f;
+    color: white;
+  }
+  .container {
+    display: flex;
+    background-color: #222222;
+    justify-content: space-around;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px #4f4f4f;
+  }
+  /* .container ul li:first-child {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 35px;
+  } */
+  .container ul {
+    font-family: monospace;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 40px;
+    gap: 20px;
+  }
+  .container ul li a {
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    height: 41px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  .container ul li:hover{
+    fill:black;
+  
+  }
+  .container ul li a:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 600ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .card {
+    height: 300px;
+    margin :30px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    
+  }
+  .card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 10px 5px#434343;
+    transition: all 400ms ease-in;
+  }
+  .image {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(97, 97, 97);
+  }
+  img {
+    margin: 10px;
+    object-fit: contain;
+    height: 200px;
+    position: relative;
+    left: 10px;
+  }
+  a{
+      text-decoration: none;
+  }
+  .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .btn {
+    background-color: #0C6EE4;  
+    display: flex;
+    color: white ;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 20px;
+    border: 4px solid #0C6EE4;
+    border-radius: 100px;
+    font-family: 'Archivo Black',sans-serif;
+  
+  }
+  
+  .btn:hover{
+      background-color: rgb(31, 31, 31);
+      color: #0C6EE4;
+  }
